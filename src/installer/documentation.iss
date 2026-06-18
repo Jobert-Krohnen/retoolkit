@@ -1,3 +1,17 @@
+; Copyright 2021-2026 Fernando Mercês
+;
+; Licensed under the Apache License, Version 2.0 (the "License");
+; you may not use this file except in compliance with the License.
+; You may obtain a copy of the License at
+;
+;    http://www.apache.org/licenses/LICENSE-2.0
+
+; Unless required by applicable law or agreed to in writing, software
+; distributed under the License is distributed on an "AS IS" BASIS,
+; WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+; See the License for the specific language governing permissions and
+; limitations under the License.
+
 ; Documentation folder
 [Files]
 Source: "{#MySrcDir}\documentation\*"; DestDir: "{app}\Documentation"; Flags: ignoreversion recursesubdirs createallsubdirs
@@ -14,5 +28,3 @@ Name: "{app}\sendto+\sendto\Documentation\retoolkit wiki"; Filename: "https://gi
 Name: "{app}\sendto+\sendto\Documentation\Reverse Engineering For Everyone"; Filename: "{app}\documentation\Reverse Engineering for everyone.pdf"
 Name: "{app}\sendto+\sendto\Documentation\syscalls"; Filename: "https://syscalls.w3challs.com"
 Name: "{app}\sendto+\sendto\Documentation\VMware Hardened VM detection mitigation loader"; Filename: "https://github.com/hzqst/VmwareHardenedLoader"
-Name: "{app}\sendto+\sendto\Documentation\PE Unmapper"; Filename: "https://github.com/hasherezade/pe_unmapper"
-Name: "{app}\sendto+\sendto\Documentation\Run Dot Net Dll"; Filename: "https://github.com/enkomio/RunDotNetDll"
